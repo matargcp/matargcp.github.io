@@ -52,6 +52,8 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Install postcss-cli
         run: npm i -D postcss postcss-cli autoprefixer
+      - name: Install purgecss
+        run: npm i -D @fullhuman/postcss-purgecss postcss
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
