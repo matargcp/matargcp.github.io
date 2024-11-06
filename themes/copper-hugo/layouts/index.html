@@ -302,20 +302,10 @@
       <h2 class="section-title">{{ .title | markdownify }}</h2>
       <p>{{ .content | markdownify }}</p>
     </div>
-    <!-- {{ range $i, $e:= .tablist }}
-    <div class="card" style="width: 18rem;">
-      <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
-      <img class="card-img-top">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-      </div>
-      {{ end }}
-    </div> -->
-    <div class="row row-cols-3 g-3">
+    <!-- <div class="row row-cols-3 g-3">
       {{ range $i, $e:= .tablist }}
-      <div class="col is-multiline">
-        <div div class="card" style="width: 18rem;">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
           <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
           <div class="card-body">
             <p class="card-text">
@@ -325,40 +315,23 @@
         </div>
       </div>
       {{ end }}
-    </div>
-    <!-- <div class="row row-cols-3 g-3">
-      <div class="col">
-        <div div class="card" style="width: 18rem;">
-          <h5 class="btn btn-primary">Sign up</h5>
-          <div class="card-body">
-            <p class="card-text">
-              Register online to kickstart your Mala journey
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div div class="card" style="width: 18rem;">
-          <h2 class="btn btn-primary">Share Business Info</h2>
-          <div class="card-body">
-            <p class="card-text">
-              Provide details about your business effortlessly
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div div class="card" style="width: 18rem;">
-          <h2 class="btn btn-primary">Receive Goods</h2>
-          <div class="card-body">
-            <p class="card-text">
-              Get your approved goods delivered straight to you
-            </p>
-          </div>
-        </div>
-      </div>
     </div> -->
-
+    <div class="container">
+      <div class="row row-cols-3 g-3">
+        {{ range $i, $e:= .tablist }}
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
+            <div class="card-body">
+              <p class="card-text">
+                {{ .title | markdownify }}
+              </p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
   </div>
   </div>
   </div>
