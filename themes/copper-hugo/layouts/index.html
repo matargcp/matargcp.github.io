@@ -302,7 +302,22 @@
       <h2 class="section-title">{{ .title | markdownify }}</h2>
       <p>{{ .content | markdownify }}</p>
     </div>
-    <div class="row row-cols-3 g-3">
+    <div class="row">
+      {{ range $i, $e:= .tablist }}
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
+          <div class="card-body">
+            <p class="card-text">
+              {{ .title | markdownify }}
+            </p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- <div class="row row-cols-3 g-3">
       {{ range $i, $e:= .tablist }}
       <div class="col">
         <div class="card" style="width: 18rem;">
@@ -315,7 +330,7 @@
         </div>
       </div>
       {{ end }}
-    </div>
+    </div> -->
   </div>
   </div>
   </div>
