@@ -7,7 +7,7 @@ draft : false
 
 ########## Address ###############
 contact_info:
-  enable : true
+  enable : false
   title : "Our Contact Info"
   address_list:
   - "matar@gmail.com"
@@ -16,7 +16,7 @@ contact_info:
 
 ############ Services ############
 services:
-  enable : true
+  enable : false
   title : "With Gossas you can"
   service_list:
   - "Focus critical developer resources on your core business"
@@ -26,4 +26,4 @@ services:
 ---
 
 ## Contact **Us**
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed.
+<!-- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. -->
