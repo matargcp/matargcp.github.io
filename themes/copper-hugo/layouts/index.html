@@ -298,26 +298,27 @@
 <section class="section-padding image-info-section has-shapes bg-light-gray has-bg-brash bg-brash-y"
   style="background-image: url('{{ $image1.RelPermalink }}'), url('{{ $image2.RelPermalink }}');" data-aos="fade-in">
   <div class="container">
-    <div class="col-lg-6 col-md-5">
-      <h2 class="section-title">{{ .title | markdownify }}</h2>
-      <p>{{ .content | markdownify }}</p>
-    </div>
-    <div class="row justify-content-around">
-      {{ range $i, $e:= .tablist }}
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
-          <div class="card-body">
-            <p class="card-text">
-              {{ .title | markdownify }}
-            </p>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-5">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+      </div>
+      <div class="row justify-content-around">
+        {{ range $i, $e:= .tablist }}
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
+            <div class="card-body">
+              <p class="card-text">
+                {{ .title | markdownify }}
+              </p>
+            </div>
           </div>
         </div>
+        {{ end }}
       </div>
-      {{ end }}
-    </div>
 
-    <!-- <div class="row row-cols-3 g-3">
+      <!-- <div class="row row-cols-3 g-3">
       {{ range $i, $e:= .tablist }}
       <div class="col">
         <div class="card" style="width: 18rem;">
@@ -331,6 +332,7 @@
       </div>
       {{ end }}
     </div> -->
+    </div>
   </div>
   </div>
   </div>
