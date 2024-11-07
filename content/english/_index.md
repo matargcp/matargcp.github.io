@@ -2,7 +2,7 @@
 ############################ Banner ##################################
 banner:
   enable : true
-  title : "Boost Your Business **Get Goods, Preserve Cash Flow with Mala**"
+  title : "Boost Your Business **Buy Now Pay Later for B2B**"
   content : "Experience the transformative power of Mala as it empowers businesses to access essential goods without burdening their cash flow or tying up working capital"
   image : "images/screenshots/banner-shot.png"
   video:
@@ -11,7 +11,7 @@ banner:
   form:
     enable : true
     form_acttion : "#"
-    button_label : "Request Demo"
+    button_label : "I’m Interested"
   # button:
   #   enable : true
   #   icon : "images/brands/google.png"
@@ -90,8 +90,8 @@ homepage_tab:
 ############################## Tools in Use ########################
 tools:
   enable : true
-  title : "**Seamless Integration** For All You Needs"
-  content : "Fully integrated with all govermenet entities for easy and worry free intgration with your business"
+  title : "**Seamless Integration** for Better Validation"
+  content : "Fully integrated with related government entities to enhance data entries and ensure faster validation"
   logos:
   # - "images/tools/01.png"
   # - "images/tools/02.png"
@@ -107,16 +107,16 @@ tools:
   - "images/tools/10.png"
   - "images/tools/11.png"
   - "images/tools/12.png"
-  - "images/tools/13.png"
-  # - "images/tools/14.png"
+  # - "images/tools/13.png"
+  - "images/tools/14.png"
   - "images/tools/15.png"
-  - "images/tools/16.png"
+  # - "images/tools/16.png"
   
 
 ############################## Achivement ##############################
 achivement:
   enable : true
-  title : "Works Across **All Buying Channels**"
+  title : "Available in **Online** and **Offline** Channels"
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et"
   # funfacts:
   # - name : "Years Of <br> Experience"
@@ -133,15 +133,15 @@ achivement:
 
   services:
   - name : "**Online Shop**"
-    desc: "Effortless E-commerce: Access Mala for Online Purchases"
+    desc: "Effortless E-commerce: For direct online Purchases"
     icon : "far fa-thumbs-up" # fontawesome icon : https://fontawesome.com/icons
     
   - name : "**Tele sales**"
-    desc: "Call Convenience: Access Mala for Purchases Over the Phone"
+    desc: "Call Convenience: For Purchases Over the Phone"
     icon : "far fa-comment-dots" # fontawesome icon : https://fontawesome.com/icons
     
   - name : "**Offline Shop**"
-    desc: "Offline, On Point: Use Mala for Direct Shop Purchases"
+    desc: "Offline, On Point: For Direct Shop Purchases"
     icon : "fas fa-film" # fontawesome icon : https://fontawesome.com/icons
     
   # - name : "Fully Prepared with Safe Condition"
@@ -151,7 +151,7 @@ achivement:
 ############################## Workflow ################################
 workflow:
   enable : true
-  title : "**Dive into Mala in Minutes**"
+  title : "**Dive into Mala In Easy Steps**"
   tablist:
   # tab item
   - name : "Register online to kickstart your Mala journey"
@@ -178,10 +178,11 @@ about_us:
   image : "images/about/01.jpg"
   # content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed. At vero eos et accusam et justo duo dolores"
   bulletpoints:
-    - "**Mala's Data Encryption** <br> As your data journeys through our systems, rest assured it's shielded by impenetrable armor. In transit, we employ robust encryption protocols—TLS 1.2/1.3—ensuring your information remains impervious to prying eyes. And when it comes to rest, we fortify it with the strength of 256-bit AES encryption, transforming your data into an impenetrable fortress. With Mala, your information isn't just secure; it's invincible"
+    - "**Data Encryption** <br> robust encryption protocols—TLS 1.2/1.3—ensuring your information remains impervious to prying eyes. And when it comes to rest, we fortify it with the strength of 256-bit AES encryption, transforming your data into an impenetrable fortress"
 
-    - "**Fortify Access with Mala** <br> Mala offers a robust security suite for streamlined access control. Single Sign-on, SAML integration with LDAP, and Multi-Factor Authentication ensure fortified protection. Administrators access production securely through a Bastion Host with multi-factor authentication. Secrets Management is handled with encrypted Vaults, providing secure access at runtime. Trust Mala for top-tier security solutions"
-
+    - "**Access Protection** <br> offers a robust security suite for streamlined access control. Single Sign-on, SAML integration with LDAP, and Multi-Factor Authentication ensure fortified protection. Administrators access production securely through a Bastion Host with multi-factor authentication. Secrets Management is handled with encrypted Vaults, providing secure access at runtime"
+    
+    - "**NCA Compliance** <br> comply with the national cybersecurity authorities and its standards and policies to ensure high standards for cyber threats"
     
 
 # ############################# Testimonial ############################

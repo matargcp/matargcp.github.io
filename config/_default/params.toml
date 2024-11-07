@@ -108,7 +108,7 @@ username = ""  # your username
 # Footer call to action
 [footer_call_to_action]
 enable = true
-title = "Join 75,000+ growing business That **Use Copper To Their Brand**"
+# title = "Join 75,000+ growing business That **Use Copper To Their Brand**"
 [footer_cta_button]
 enable = true
 label = "Get Started With Us"
