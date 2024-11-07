@@ -302,7 +302,7 @@
       <h2 class="section-title">{{ .title | markdownify }}</h2>
       <p>{{ .content | markdownify }}</p>
     </div>
-    <div class="row">
+    <div class="row justify-content-around">
       {{ range $i, $e:= .tablist }}
       <div class="col-sm-4">
         <div class="card" style="width: 18rem;">
