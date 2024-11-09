@@ -6,29 +6,24 @@ url = ""
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Benefits"
+url = "#tools"
 weight = 2
 
 [[main]]
-name = "Services"
-url = "services/"
+name = "Channels"
+url = "how-it-works"
 weight = 3
 
 [[main]]
-name = "Team"
-url = "team/"
+name = "Security"
+url = "how-it-works"
 weight = 4
-
-#[[main]]
-#name = "Blog"
-#url = "blog/"
-#weight = 5
 
 [[main]]
 name = "Contact"
 url = "contact/"
-weight = 6
+weight = 5
 
 
 # Footer menu
