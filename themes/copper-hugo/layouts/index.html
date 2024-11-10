@@ -308,7 +308,7 @@
         {{ range $i, $e:= .tablist }}
         <div class="col-sm-4">
           <div class="card" style="width: 18rem;">
-            <a href="#" class="btn btn-primary">{{ .label | markdownify }}</a>
+            <h5 href="#" class="btn btn-primary">{{ .label | markdownify }}</h5>
             <div class="card-body">
               <p class="card-text">
                 {{ .title | markdownify }}
