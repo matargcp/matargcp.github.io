@@ -14,19 +14,22 @@
         <form method="POST" class="rounded shadow p-30" action="{{site.Params.contact_form_action}}">
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="fname">{{ i18n "name"}}</label>
-            <input class="form-control shadow-none" type="text" placeholder="Jack Barker" id="fname" required>
+            <input class="form-control shadow-none" name="Name" type="text" placeholder="Jack Barker" id="fname"
+              required>
           </div>
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="email">{{i18n "mail"}}</label>
-            <input class="form-control shadow-none" type="email" placeholder="barker@Copper.io" id="email" required>
+            <input class="form-control shadow-none" name="Email" type="email" placeholder="barker@Copper.io" id="email"
+              required>
           </div>
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="website">{{i18n "website"}}</label>
-            <input class="form-control shadow-none" type="url" placeholder="Website">
+            <input class="form-control shadow-none" name="Website" type="url" placeholder="Website">
           </div>
           <div class="form-group mb-30">
             <label class="h5 font-weight-600 mb-2" for="message">{{ i18n "message"}}</label>
-            <textarea class="form-control shadow-none" name="comment" rows="3" id="message" required></textarea>
+            <input class="form-control shadow-none" name="Mobile Number" rows="3" id="message"
+              placeholder="+966501058699" required>
           </div>
           <button class="btn btn-primary w-100" type="submit">{{ i18n "submit"}}</button>
         </form>

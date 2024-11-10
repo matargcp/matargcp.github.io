@@ -405,6 +405,7 @@
       "tools-use-section",
       "top",
       "user-info",
+      "validate",
       "video-play-btn",
       "w-100"
     ],
@@ -439,6 +440,7 @@
       "join-team",
       "lname",
       "masonry",
+      "mc-embedded-subscribe-form",
       "message",
       "monthly",
       "navbar-spy",
