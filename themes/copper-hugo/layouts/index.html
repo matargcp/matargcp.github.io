@@ -143,7 +143,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-9 text-center mb-40">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
+        <h2 id="{{ .title | anchorize }}" class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
       </div>
       <div class="col-lg-11">
@@ -248,7 +249,8 @@
       <!-- <div class="col-xl-10"> -->
       <!-- <div class="row align-items-center"> -->
       <div class="col-lg-8">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
+        <h2 id="{{ .title | anchorize }}" class="section-title">{{ .title | markdownify }}</h2>
         <p class="border-bottom pb-30 me-0 me-lg-5">
           {{ .content | markdownify }}
         </p>
@@ -358,7 +360,8 @@
   <div class="container">
     <div class="row align-items-center justify-content-around">
       <div class="col-lg-5 col-md-8 col-sm-10 mb-5">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <!-- <h2 class="section-title">{{ .title | markdownify }}</h2> -->
+        <h2 id="{{ .title | anchorize }}" class="section-title">{{ .title | markdownify }}</h2>
         <p class="pb-20 border-bottom mb-20">
           {{ .content | markdownify }}
         </p>
