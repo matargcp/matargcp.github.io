@@ -6,7 +6,7 @@ banner:
   content : "Experience the transformative power of Mala as it empowers businesses to access essential goods without burdening their cash flow or tying up working capital"
   image : "images/screenshots/banner-shot.png"
   video:
-    enable : true
+    enable : false
     video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
   form:
     enable : true
