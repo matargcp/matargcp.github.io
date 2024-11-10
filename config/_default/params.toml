@@ -1,6 +1,6 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/logo.png"
 # logo
 logo = "images/logo.png"
 # use `px` or `x` with logo_width, example: "100px".
@@ -9,12 +9,12 @@ logo_width = "152px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Copper"
+# logo_text = "Copper"
 # purgeCSS
 purge_css = true
  
 # Main Sections
-mainSections = ["blog"]
+# mainSections = ["blog"]
 # image gallery shortcode
 image_gallery = true
 # contact form action
