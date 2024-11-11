@@ -10,7 +10,7 @@ banner:
     video_embed_link : "https://www.youtube.com/embed/dyZcRRWiuuw"
   form:
     enable : true
-    form_acttion : "#"
+    form_action : "https://formspree.io/f/xdkozkgr"
     button_label : "I’m Interested"
   # button:
   #   enable : true

@@ -53,7 +53,7 @@ link = ""
 [subscription]
 enable = false
 # mailchimp subsciption
-mailchimp_form_action = "https://linux.us13.list-manage.com/subscribe/post?u=e6f3678c2eb4bbed41a97e256&amp;id=cefedd0f54&amp;f_id=00428ae1f0" # replace this url with yours
+mailchimp_form_action = "https://linux.us13.list-manage.com/subscribe/post?u=e6f3678c2eb4bbed41a97e256&amp;id=cefedd0f54&amp;f_id=00418ae1f0" # replace this url with yours
 mailchimp_form_name =  "b_e6f3678c2eb4bbed41a97e256_cefedd0f54"                                                           # replace this code with yours
 
 # Crisp Chat

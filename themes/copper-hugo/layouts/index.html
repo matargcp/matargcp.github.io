@@ -38,9 +38,10 @@
 
         {{ if .form.enable }}
         {{ with .form }}
-        <form action="{{ .form_action }}" method="post" class="needs-validation mt-30" novalidate>
+        <form id="interested" action="{{ .form_action }}" method="post" class="needs-validation mt-30" novalidate>
           <div class="input-group d-block d-sm-flex">
-            <input type="email" class="form-control bg-transparent" placeholder="name@email.com" required />
+            <input type="email" class="form-control bg-transparent" name="Email" id="email"
+              placeholder=" name@email.com" required />
             <div class="input-group-append">
               <button type="submit" class="btn btn-primary has-icon ms-15">
                 {{ .button_label }}
