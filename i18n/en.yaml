@@ -10,8 +10,8 @@
 - id: home
   translation: Home
   
-- id: all_together
-  translation: Mala's Team
+# - id: all_together
+#   translation: Mala's Team
   
 - id: name
   translation: Your Name
