@@ -110,7 +110,7 @@ username = ""  # your username
 enable = true
 # title = "Join 75,000+ growing business That **Use Copper To Their Brand**"
 [footer_cta_button]
-enable = true
+enable = false
 label = "Get Started With Us"
 link = "contact"
 
